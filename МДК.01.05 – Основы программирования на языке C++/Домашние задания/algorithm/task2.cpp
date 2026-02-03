@@ -4,11 +4,10 @@
 
 using namespace std;
 
-int an_even_numbers(vector<int>& test){
-    int c = count_if(test.begin(), test.end(), [](int x){
+void delete_even_numbers(vector<int>& test){
+    test.erase(remove_if(test.begin(), test.end(), [](int x){
         return x % 2 == 0;
-    });
-    return c;
+    }), test.end());
 }
 
 int main(){
@@ -17,6 +16,10 @@ int main(){
     cout << "Вектор: ";
     for_each(numbers.begin(), numbers.end(), [](int x){
         cout << x << " ";});
+
+    delete_even_numbers(numbers);
     
-    cout << endl << "Количество четных чисел: " << an_even_numbers(numbers);
+    cout << endl << "Вектор без четных чисел: ";
+    for_each(numbers.begin(), numbers.end(), [](int x){
+        cout << x << " ";});
 }
