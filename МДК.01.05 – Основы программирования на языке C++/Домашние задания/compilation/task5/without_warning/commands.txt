@@ -1,0 +1,4 @@
+compiling:  PS C:\VSCODE\compilation\compile> g++ main.cpp math_utils.cpp -o app
+debug:  PS C:\VSCODE\compilation\compile> g++ -O0 -g main.cpp math_utils.cpp -o app_debug
+release:    PS C:\VSCODE\compilation\compile> g++ -O2 main.cpp math_utils.cpp -o app_release
+with_warning:    PS C:\VSCODE\compilation\compile> g++ main.cpp math_utils.cpp -Wall -o app
