@@ -1,0 +1,1 @@
+g++ task4.cpp -Wall -Wextra -O2 -o task4
