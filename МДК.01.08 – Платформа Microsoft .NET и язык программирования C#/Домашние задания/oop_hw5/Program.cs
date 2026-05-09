@@ -1,4 +1,4 @@
-﻿namespace hw6
+﻿namespace hw5
 {
     internal class Program
     {
