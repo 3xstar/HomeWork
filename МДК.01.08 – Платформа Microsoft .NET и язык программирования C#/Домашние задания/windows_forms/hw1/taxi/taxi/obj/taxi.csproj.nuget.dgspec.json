@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#_NET\\windows_forms\\homeworks\\taxi\\taxi\\taxi.csproj": {}
+    "C:\\HOMEWORK\\МДК.01.08 – Платформа Microsoft .NET и язык программирования C#\\Домашние задания\\windows_forms\\hw1\\taxi\\taxi\\taxi.csproj": {}
   },
   "projects": {
-    "C:\\C#_NET\\windows_forms\\homeworks\\taxi\\taxi\\taxi.csproj": {
+    "C:\\HOMEWORK\\МДК.01.08 – Платформа Microsoft .NET и язык программирования C#\\Домашние задания\\windows_forms\\hw1\\taxi\\taxi\\taxi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#_NET\\windows_forms\\homeworks\\taxi\\taxi\\taxi.csproj",
+        "projectUniqueName": "C:\\HOMEWORK\\МДК.01.08 – Платформа Microsoft .NET и язык программирования C#\\Домашние задания\\windows_forms\\hw1\\taxi\\taxi\\taxi.csproj",
         "projectName": "taxi",
-        "projectPath": "C:\\C#_NET\\windows_forms\\homeworks\\taxi\\taxi\\taxi.csproj",
+        "projectPath": "C:\\HOMEWORK\\МДК.01.08 – Платформа Microsoft .NET и язык программирования C#\\Домашние задания\\windows_forms\\hw1\\taxi\\taxi\\taxi.csproj",
         "packagesPath": "C:\\Users\\tmrni\\.nuget\\packages\\",
-        "outputPath": "C:\\C#_NET\\windows_forms\\homeworks\\taxi\\taxi\\obj\\",
+        "outputPath": "C:\\HOMEWORK\\МДК.01.08 – Платформа Microsoft .NET и язык программирования C#\\Домашние задания\\windows_forms\\hw1\\taxi\\taxi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
