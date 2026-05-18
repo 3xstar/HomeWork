@@ -71,7 +71,7 @@
 
         public void students_names(Student[] students)
         {
-            var names = students.Select(s => s.name).ToList();
+            var names = students.Select(s => s.name);
             Console.WriteLine("Names of all students:");
             foreach(string name in names)
             {
@@ -81,7 +81,7 @@
 
         public void sort_by_age(Student[] students)
         {
-            var sorted_students = students.OrderBy(s => s.age).ToList();
+            var sorted_students = students.OrderBy(s => s.age);
             Console.WriteLine("Students ordered by age (lower to higher):");
             foreach(Student s in sorted_students)
             {
@@ -91,7 +91,7 @@
 
         public void excellent_young_students(Student[] students)
         {
-            var excellent_young_students = students.Where(s => s.age < 25 && s.middle_grade >= 75).OrderByDescending(s => s.middle_grade).ToList();
+            var excellent_young_students = students.Where(s => s.age < 25 && s.middle_grade >= 75).OrderBy(s => s.middle_grade);
             Console.WriteLine("Excellent young students ordered by middle grade (lower to higher):");
             foreach(Student s in excellent_young_students)
             {
