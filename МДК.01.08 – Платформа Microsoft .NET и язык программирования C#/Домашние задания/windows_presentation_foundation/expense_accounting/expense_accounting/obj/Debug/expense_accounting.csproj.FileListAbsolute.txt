@@ -1,0 +1,15 @@
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\bin\Debug\expense_accounting.exe.config
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\bin\Debug\expense_accounting.exe
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\bin\Debug\expense_accounting.pdb
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.csproj.AssemblyReference.cache
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\MainWindow.g.cs
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\App.g.cs
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting_MarkupCompile.cache
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting_MarkupCompile.lref
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\MainWindow.baml
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.g.resources
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.Properties.Resources.resources
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.csproj.GenerateResource.cache
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.csproj.CoreCompileInputs.cache
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.exe
+C:\C#_NET\windows_presentation_foundation\homeworks\expense_accounting\expense_accounting\obj\Debug\expense_accounting.pdb

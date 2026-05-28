@@ -1,0 +1,52 @@
+﻿<Window x:Class="expense_accounting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:expense_accounting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="DodgerBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Monday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" FontWeight="Bold" FontSize="20" Foreground="White"/>
+        <Label Content="Tuesday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" FontWeight="Bold" FontSize="20" Foreground="White"/>
+        <Label Content="Wednesday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" FontWeight="Bold" FontSize="18" Foreground="White"/>
+        <Label Content="Thursday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" FontWeight="Bold" FontSize="20" Foreground="White"/>
+        <Label Content="Friday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" FontWeight="Bold" FontSize="20" Foreground="White"/>
+        <Label Content="Saturday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="5" FontWeight="Bold" FontSize="20" Foreground="White"/>
+        <Label Content="Sunday" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="6" FontWeight="Bold" FontSize="20" Foreground="White"/>
+
+        <TextBox x:Name="MondayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="114" TextWrapping="Wrap"/>
+        <TextBox x:Name="TuesdayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="114" TextWrapping="Wrap"/>
+        <TextBox x:Name="WednesdayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="115" TextWrapping="Wrap"/>
+        <TextBox x:Name="ThursdayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="114" TextWrapping="Wrap"/>
+        <TextBox x:Name="FridayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="4" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="114" TextWrapping="Wrap"/>
+        <TextBox x:Name="SaturdayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="5" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="114" TextWrapping="Wrap"/>
+        <TextBox x:Name="SundayTextBox" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="6" Text="0" VerticalAlignment="Center" FontSize="20" Height="144" Width="114" TextWrapping="Wrap"/>
+
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Grid.Row="2" Content="CALCULATE" FontWeight="Bold" FontSize="18" Height="52" Click="Button_Click" Background="SlateGray" Foreground="White" RenderTransformOrigin="0.919,0.559" Width="114"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,80,0,0" Grid.Row="2" Content="CLEAR" FontWeight="Bold" FontSize="18" Height="48" Width="114" Background="SlateGray" Foreground="White" Click="Button_Click_1"/>
+
+        <TextBox x:Name="TotalAmountTextBox" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="2" Text="0" FontWeight="Bold" VerticalAlignment="Center" FontSize="20" Background="Green" Foreground="White" TextWrapping="Wrap"/>
+        <TextBox x:Name="AverageConsumptionTextBox" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="4" FontWeight="Bold" Text="0" VerticalAlignment="Center" FontSize="20" Background="Green" Foreground="White" TextWrapping="Wrap"/>
+        <TextBox x:Name="HighestDailyExpenseTextBox" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="6" FontWeight="Bold" Text="0" VerticalAlignment="Center" FontSize="20" Background="Green" Foreground="White" TextWrapping="Wrap"/>
+
+        <Label Content="TOTAL&#10;AMOUNT&#10;PER WEEK:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" FontWeight="Bold" FontSize="20" FontStyle="Italic" Foreground="White"/>
+        <Label Content="AVERAGE&#10;EXPENSE&#10;PER DAY:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" FontWeight="Bold" FontSize="20" FontStyle="Italic" Foreground="White"/>
+        <Label Content="HIGHEST&#10;DAILY&#10;EXPENSE:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="5" FontWeight="Bold" FontSize="20" FontStyle="Italic" Foreground="White"/>
+    </Grid>
+</Window>
