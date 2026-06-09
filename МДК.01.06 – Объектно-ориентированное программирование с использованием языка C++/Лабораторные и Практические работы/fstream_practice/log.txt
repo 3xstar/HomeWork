@@ -1,5 +1,5 @@
 INFO: User login
 ERROR: Connection failed
-WARNING: Low memory
 INFO: Data loaded
+WARNING: Low memory
 ERROR: Disk not found
