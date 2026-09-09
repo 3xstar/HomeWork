@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dxydPq5mPw0=",
+  "dgSpecHash": "2QqMJl1KEYY=",
   "success": true,
-  "projectFilePath": "C:\\C#_NET\\windows_forms\\homeworks\\comp_info\\comp_info\\comp_info.csproj",
+  "projectFilePath": "C:\\HOMEWORK\\past\\second_course\\МДК.01.09 – Основы разработки приложений с использованием Windows Forms и WPF\\Домашние задания\\hw2\\comp_info\\comp_info\\comp_info.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmrni\\.nuget\\packages\\blacksharp.core\\1.0.7\\blacksharp.core.1.0.7.nupkg.sha512",
     "C:\\Users\\tmrni\\.nuget\\packages\\diskinfotoolkit\\1.1.2\\diskinfotoolkit.1.1.2.nupkg.sha512",
